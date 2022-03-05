@@ -1,0 +1,11 @@
+name = "rsw"
+version = "0.1.0"
+interval = 50
+cli = "npm"
+
+[new]
+using = "rsw"
+
+[[crates]]
+name = "hello-wasm"
+link = true
